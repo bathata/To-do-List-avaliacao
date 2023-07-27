@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(https://images.hdqwalls.com/download/forward-slash-material-design-white-5k-bu-1920x1080.jpg);
+}
+
+header {
+  color: rgb(59, 113, 140);
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  height: 125px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  justify-content: center;
+  margin-top: 0.625rem;
+  text-align: center;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+main{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border: 1px solid rgb(105, 197, 255);
+  border-radius: 5px;
+  background-color: rgb(227, 248, 255);
+  color: rgb(105, 197, 255);
+  text-align: center;
+  padding: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
+
+#list{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 500px;
+  height: fit-content;
+  padding-left: 10px;
+}
+
+.button-remove {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, ol, .ol {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+ol{
+  list-style-type: lower-alpha;
+}
+
+h1, .h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
